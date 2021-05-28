@@ -1,0 +1,23 @@
+{
+	"name": "pessek/mmenu",
+	"description": "Implements jQuery.mmenu in Elgg",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "menu"],
+	"require": {
+		"composer/installers": "^1.0.8",
+		"bower-asset/mmenu": "~7.0.0"
+	},
+	"conflict": {
+		"elgg/elgg": "<3.1"
+	},
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "mmenu"
+	}
+}
